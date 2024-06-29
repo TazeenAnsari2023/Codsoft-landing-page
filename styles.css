@@ -1,0 +1,239 @@
+
+body, h1, h2, h3, p, ul, form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("space.avif");
+  min-height: 100vh;
+  width:100%;
+  background-position:center;
+  background-size: auto;
+  background-image: fixed;
+  color: #f3efef;
+  line-height: 2;
+  background-repeat:repeat;
+}
+
+nav {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display:inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+header {
+  background-image:url("vrset.jpg") ;
+  background-size: 580px auto;
+  background-repeat:no-repeat;
+  color: #f0ebea;
+  text-align: right;
+  font-size:60px;
+  padding: 290px 0;
+
+}
+.btn{
+  padding:15px 14px;
+  font-size:50px;
+  position:relative;
+  right:300px;
+  bottom:70px;
+  cursor:pointer;
+  border:3px solid rgb(250, 246, 246);
+  background-color: rgb(237, 193, 231);
+  border-radius: 20px;
+  
+}
+
+header h1 {
+  font-size: 20rem;
+  margin-bottom: 30px;
+  
+}
+
+header p {
+  font-size: 3rem;
+
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+   
+}
+
+
+.section {
+  margin-bottom: 100px;
+  padding: 20px;
+  background-image:url("hearts.jpg");
+  border-radius: 60px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  font-size: 3rem;
+  text-align:center;
+}
+
+.section p {
+  font-size: 1.2rem;
+  line-height: px;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.testimonial {
+  margin-bottom: 35px;
+  padding: 20px;
+  background-color: #0c0808;
+  border-left: 4px solid #333;
+  
+}
+
+.testimonial blockquote {
+  font-style: italic;
+  margin-bottom: 10px;
+
+}
+
+.testimonial cite {
+  font-weight: bold;
+}
+
+.blog article {
+  margin-bottom: 20px;
+}
+
+.blog article h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.blog article p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.blog article a {
+  display: inline-block;
+ 
+  text-decoration: none;
+  color: #080101;
+  font-weight: bold;
+}
+
+.blog article a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  position: relative;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-links li a:hover {
+  text-decoration: underline;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+
+}
+
+form button {
+  background-color: #333;
+  color: #f5efef;
+  border: none;
+  cursor: pointer;
+ 
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+      padding: 80px 0;
+  }
+
+  .container {
+      padding: 10px;
+  }
+
+  .section h2 {
+      font-size: 1.8rem;
+  }
+
+  .section p {
+      font-size: 1rem;
+}
+}
